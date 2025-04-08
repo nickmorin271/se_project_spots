@@ -8,22 +8,18 @@
   height: 190px;
   width: 190px;
   margin-right: 20px;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
 .profile__column {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 420px;
-  height: 190px;
 }
 
 .profile__name {
   margin: 0 0 12px;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
-  width: 420px;
-  height: 32px;
   font-weight: 500;
   font-size: 32px;
   line-height: 1;
@@ -80,7 +76,7 @@
   cursor: pointer;
 }
 
-.profile__image__edit-btn {
+.profile__image_edit-btn {
   width: 12px;
   height: 12px;
   border-radius: 2px;
@@ -104,11 +100,11 @@
 }
 
 .profile__add-btn:hover {
-  background-color: rgba(33, 33, 33, 0.8);
+  opacity: 70%;
   cursor: pointer;
 }
 
-.profile__image__add-btn {
+.profile__image_add-btn {
   width: 12px;
   height: 12px;
   border: 2px;
@@ -139,12 +135,13 @@
   }
 
   .profile__description {
-    margin: 80px 80px 32px 1px;
+    margin: 80px 80px 32px;
     font-size: 16px;
   }
 
   .profile__column {
     margin: 0 0 20px;
+    align-items: center;
   }
 
   .profile__add-btn {

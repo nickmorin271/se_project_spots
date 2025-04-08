@@ -1,14 +1,12 @@
 .footer {
-  max-width: 104px;
-  max-height: 16px;
-  padding: 60px 588px;
+  width: 104px;
+  height: 16px;
+  padding: 60px 0;
 }
 
 .footer__copyright {
   display: flex;
   justify-content: center;
-  width: 104px;
-  height: 16px;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 16px;

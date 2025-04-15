@@ -46,4 +46,4 @@ This CSS style was introduced in this sprint and to make sure the page fits on a
 
 This webpage is deployed to GitHub Pages
 
-- Deployment Link: url(https://github.com/nickmorin271/se_project_spots.git)
+- Deployment Link: url(https://nickmorin271.github.io/se_project_spots/)
